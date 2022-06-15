@@ -4,9 +4,8 @@ function startnotrunning() {
 	ps aux | grep $1 | head -n -2 | grep $1 || "$@" & 
 }
 
-startnotrunning kitty 
-startnotrunning firefox
-startnotrunning whatsapp-for-linux
+
 startnotrunning todoist
-startnotrunning discord
-startnotrunning webwhatsapp
+startnotrunning thunderbird
+startnotrunning firefox
+

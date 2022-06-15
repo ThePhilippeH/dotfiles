@@ -19,6 +19,17 @@ if [[ $(xrandr -q | grep -w DP-1-0) =~ \ connected ]]; then
     ~/.screenlayout/HOME.sh
     dual_monitor "DP-1-0" "eDP1"
 
+
+
+
+
+
+
+
+
+
+
+lxappearance; sleep 1; pkill lxappearance
 elif [[ $(xrandr -q | grep -w HDMI-0) =~ \ connected ]]; then
     ~/.screenlayout/WORK.sh
     dual_monitor "HDMI-0" "eDP1"
@@ -197,4 +208,4 @@ exec startups &
 
 
 
-lxappearance; sleep 1; pkill lxappearance
+lxappearance; sleep 0.5; pkill lxappearance

@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/phlop/Pictures/wallpaper.jpg' 
+feh --no-fehbg --bg-scale '/home/phlop/Downloads/cat.jpeg' 

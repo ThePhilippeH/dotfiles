@@ -89,7 +89,7 @@ bspc rule -a origin.exe state=floating
 # Background applications
 
 exec $HOME/.config/polybar/launch_hidden.sh --forest 3 &
-exec feh --bg-fill /home/phlop/Downloads/cat.jpeg &
+exec feh --bg-fill /home/phlop/Downloads/mount.jpg &
 exec $(pkill dunst; dunst -config "$HOME"/.config/dunst/dunstrc) &
 
 # Startup applications

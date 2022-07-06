@@ -5,8 +5,8 @@ function startnotrunning() {
 }
 
 
-startnotrunning todoist
 startnotrunning thunderbird
 startnotrunning firefox
+startnotrunning todoist
 
-lxappearance; sleep 0.5; pkill lxappearance
+lxappearance; sleep 1; pkill lxappearance
